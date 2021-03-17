@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>this description has been added to help with a demo of IKANALM for SF at Wednesday March 17 2021 with cli 7.91 and api 50.0</description>
+    <description>this description has been added to help with a demo of IKANALM for Brightfox</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
