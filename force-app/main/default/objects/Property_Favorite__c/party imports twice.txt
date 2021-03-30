@@ -1,0 +1,70 @@
+AGREMENT BOM DIAGRAM
+
+
+<packagedElement isAbstract="false" isActive="false" isLeaf="false" isRoot="false" isSpecification="false" name="Party" visibility="public" xmi:id="30673920-f85b-eb11-8546-9061ae370d29" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm19" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyName" type="dbb7b314-e95b-eb11-8546-9061ae370d29" visibility="public" xmi:id="32673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm20" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyDateTime" type="7fa328b1-b85c-eb11-8547-9061ae370d29" visibility="public" xmi:id="34673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm21" xmi:type="uml:Comment">
+     <body>
+      A date relevant for a party 
+eg. date of birth, date of death
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyIReference" type="2b7e719a-c25c-eb11-8547-9061ae370d29" visibility="public" xmi:id="35673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm22" xmi:type="uml:Comment">
+     <body>
+      A set of characteristics that allows to refer to a unique distinct instance of a Party
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
+  
+  *************************************************************************************************************************************************************************
+  
+ PARTY LOCATION BOM DIAGRAM PARTY
+
+  <packagedElement isAbstract="false" isActive="false" isLeaf="false" isRoot="false" isSpecification="false" name="Party" visibility="public" xmi:id="30673920-f85b-eb11-8546-9061ae370d29" xmi:type="uml:Class">
+   <ownedComment xmi:id="comm0" xmi:type="uml:Comment">
+    <body>
+     A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)
+    </body>
+   </ownedComment>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyName" type="dbb7b314-e95b-eb11-8546-9061ae370d29" visibility="public" xmi:id="32673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm1" xmi:type="uml:Comment">
+     <body>
+      Name by which a party is known and which is usually used to identify that party. (ISO20022)
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyDateTime" type="7fa328b1-b85c-eb11-8547-9061ae370d29" visibility="public" xmi:id="34673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm2" xmi:type="uml:Comment">
+     <body>
+      A date relevant for a party 
+eg. date of birth, date of death
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+   <ownedAttribute Mandatory="false" Multivalued="false" isDerived="false" isOrdered="false" isReadOnly="false" isUnique="true" name="PartyIReference" type="2b7e719a-c25c-eb11-8547-9061ae370d29" visibility="public" xmi:id="35673920-f85b-eb11-8546-9061ae370d2990235803">
+    <ownedComment xmi:id="comm3" xmi:type="uml:Comment">
+     <body>
+      A set of characteristics that allows to refer to a unique distinct instance of a Party
+     </body>
+    </ownedComment>
+   </ownedAttribute>
+  </packagedElement>
